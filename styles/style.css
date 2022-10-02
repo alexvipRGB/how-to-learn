@@ -55,6 +55,7 @@
   width: 388px;
   height: 63px;
   bottom: 30px;
+  margin: 0;
   left: 64px;
   font-weight: normal;
   text-decoration: none;
@@ -175,9 +176,10 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 60px 20px;
+  gap: 60px 0px;
   padding: 0;
   margin: 60px 0px 0px 0px;
+  justify-content: space-between;
 }
 
 .table__cell {
