@@ -261,7 +261,6 @@
 .kaufman {
   margin: auto;
   list-style: none;
-  padding-top: 90px;
   padding-bottom: 90px;
   background: #1f1f1f;
   display: flex;
@@ -284,6 +283,7 @@
   font-weight: 600;
   margin-top: 0px;
   z-index: 1;
+  padding-top: 90px;
 }
 
 .section-subtitle_theme_dark {
@@ -321,7 +321,8 @@
   gap: 60px 20px;
   padding: 0;
   margin: 80px 0px 0px 0px;
-  overflow: hidden;
+  overflow: hidden;    
+  justify-content: space-between;
 }
 
 .table__cell_theme_dark {
@@ -336,10 +337,9 @@
   width: 877px;
   position: absolute;
   right: -210px;
-  margin: -90px 0 0 0px;
   z-index: 0;
   background-image: url(../images/kaufman-triangle.svg);
-  background-size: contain;
+  background-size: cover;
 }
 
 .footer {
