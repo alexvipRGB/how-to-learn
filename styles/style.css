@@ -360,31 +360,28 @@
   justify-content: space-between;
   min-height: 30px;
 }
-
-.footer__column_content_copyright {
-  flex-basis: 711px;
-  height: 250px;
+.footer__column{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.footer__column_content_copyright {
+  height: 250px;
+  flex-basis: 711px;
 }
 
 .footer__column_content_info {
   margin: 0;
   padding: 0;
-  display: flex;
   gap: 20px 0px;
   margin-bottom: 14px;
-  flex-direction: column;
 }
 
 .footer__column_content_social {
   margin: 0;
   padding: 0;
-  display: flex;
   gap: 20px 0px;
   margin-bottom: 14px;
-  flex-direction: column;
 }
 
 .logo_place_footer {
