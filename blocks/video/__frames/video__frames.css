@@ -1,8 +1,0 @@
-.video__frames {
-    margin: auto;
-    display: flex;
-    gap: 20px;
-    position: relative;
-    top: 50px;
-    bottom: -60px;
-}
