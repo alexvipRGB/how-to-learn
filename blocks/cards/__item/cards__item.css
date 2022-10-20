@@ -1,0 +1,6 @@
+.cards__item {
+  width: min-content;
+  color: #000000;
+  text-align: center;
+  z-index: 1;
+}
